@@ -1,0 +1,22 @@
+{
+  "name": "qqwry-mcp-service",
+  "version": "1.0.0",
+  "description": "A MCP service for QQWry IP database library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qqwry",
+    "mcp",
+    "ip",
+    "geoip"
+  ],
+  "author": "cnwhy",
+  "license": "MIT",
+  "dependencies": {
+    "lib-qqwry": "^1.3.4",
+    "@modelcontextprotocol/server": "^1.0.0"
+  }
+}
